@@ -11,5 +11,5 @@ app.get('/{*splat}', (req, res) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Flutter web app running at http://0.0.0.0:${PORT}`);
+  console.log(`SAWTAK running at http://0.0.0.0:${PORT}`);
 });
